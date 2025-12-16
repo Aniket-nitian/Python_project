@@ -1,0 +1,3 @@
+Inputs -- rents,food ordered for snacking, electricity units spend, charge per units.
+
+outputs -- total amount you've have to pay
