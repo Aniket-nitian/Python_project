@@ -1,0 +1,8 @@
+input -- user move -> paper,rock,scissor
+
+random selection by computer out of the 3 moves
+
+logic -- 
+paper > rock
+rock > scissor
+scissor > paper
