@@ -24,13 +24,13 @@ elif (user_move == 0 and comp_move() == 2) or (user_move == 1 and comp_move() ==
 elif (user_move == 0 and comp_move() == 1) or (user_move == 1 and comp_move() == 2) or (user_move == 2 and comp_move() == 0):
     if comp_move() == 1 :
       print("Computer choosed 'Paper'")
-      print("Oops you lost 😒, better luck next time.")
+      print("Oops you lost 😒, better luck next time")
     elif comp_move() == 2 :
       print("Computer choosed 'Scissor'")
-      print("Oops you lost 😒, better luck next time.")
+      print("Oops you lost 😒, better luck next time")
     else:
       print("Computer choosed 'Rock'")
-      print("Oops you lost 😒, better luck next time.")
+      print("Oops you lost 😒, better luck next time")
 
 elif (user_move == 2 and comp_move() == 1):
     print("Computer choosed 'Paper'")
