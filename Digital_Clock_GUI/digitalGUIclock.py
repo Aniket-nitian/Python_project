@@ -11,7 +11,7 @@ def time():
     label.config(text=string) # Update the label with the current time
     label.after(1000, time) # Call the time function after 1000 milliseconds (1 second)
 
-label = tk.Label(root, font=('calibri', 40, 'bold'), background='black', foreground='white') # Create a label widget
+label = tk.Label(root, font=('calibri', 40, 'bold'), background='yellow', foreground='black') # Create a label widget and set its font, background, and foreground colors
 label.pack(anchor='center') # Pack the label into the window
 time() # Call the time function to start the clock
 root.mainloop() # Start the Tkinter event loop
